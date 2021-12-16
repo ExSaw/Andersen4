@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnalogClock">
+        <attr name="clockColor" format="reference|color" />
+        <attr name="hoursArrowColor" format="reference|color" />
+        <attr name="minutesArrowColor" format="reference|color"/>
+        <attr name="secondsArrowColor" format="reference|color"/>
+        <attr name="arrowsLength" format="enum">
+            <enum name="longer" value="-1"/>
+            <enum name="standard" value="0"/>
+            <enum name="shorter" value="2"/>
+        </attr>
+        <attr name="clockPadding" format="dimension"/>
+        <attr name="showMillisecondsArrow" format="boolean"/>
+        <attr name="tickInterval" format="enum">
+            <enum name="high" value="1000"/>
+            <enum name="standard" value="100"/>
+            <enum name="low" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
